@@ -1,10 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "ShadowPath"
-  s.version      = "0.1.0"
+  s.version      = "1.0.0"
   s.summary      = "Http and Socks proxy based on Privoxy and Antinat"
   s.description  = <<-DESC
                    Http and Socks proxy based on Privoxy and Antinat.
                    DESC
+  s.source  = { :git => 'https://github.com/SpikeLeeHom/ShadowPath.git', :tag => "#{s.version}" }
   s.homepage     = "http://icodesign.me"
   s.license      = "GPLv2"
   s.author        = { "iCodesign" => "leimagnet@gmail.com" }
